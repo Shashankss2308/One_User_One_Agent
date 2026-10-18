@@ -1,0 +1,42 @@
+{
+ "viewer_id": "U-00683",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00683",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T07:03:34.320Z",
+  "deadline": "2026-10-04T07:03:34.320Z",
+  "decision_id": "D-00852"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00852",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00278"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00683",
+   "arm": "agent",
+   "decision_id": "D-00852",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T07:03:34.320Z",
+   "deadline": "2026-10-04T07:03:34.320Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "bagugu-gigupi-d1"
+  }
+ ]
+}

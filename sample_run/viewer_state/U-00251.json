@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-00251",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-00251",
+  "arm": "holdout",
+  "goal_id": "G12",
+  "rule_version": 1,
+  "start": "2026-10-01T05:31:29.720Z",
+  "deadline": "2026-10-08T05:31:29.720Z",
+  "decision_id": "D-00664"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00664",
+   "action": "NO_ACTION",
+   "goal": "G12",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01968",
+   "action": "NO_ACTION",
+   "goal": "G05",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00251",
+   "arm": "holdout",
+   "decision_id": "D-00664",
+   "goal_id": "G12",
+   "goal_start": "2026-10-01T05:31:29.720Z",
+   "deadline": "2026-10-08T05:31:29.720Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-001778",
+   "success_observed_at": "2026-10-01T15:03:28.944Z",
+   "target_content_slug": null
+  }
+ ]
+}

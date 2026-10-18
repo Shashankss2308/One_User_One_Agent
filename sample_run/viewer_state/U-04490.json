@@ -1,0 +1,42 @@
+{
+ "viewer_id": "U-04490",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04490",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T05:02:50.259Z",
+  "deadline": "2026-10-04T05:02:50.259Z",
+  "decision_id": "D-00594"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00594",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00161"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04490",
+   "arm": "agent",
+   "decision_id": "D-00594",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T05:02:50.259Z",
+   "deadline": "2026-10-04T05:02:50.259Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "tiko-subava-d4"
+  }
+ ]
+}

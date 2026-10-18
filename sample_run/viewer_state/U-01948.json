@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-01948",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-01948",
+  "arm": "agent",
+  "goal_id": "G12",
+  "rule_version": 1,
+  "start": "2026-10-01T15:30:25.991Z",
+  "deadline": "2026-10-08T15:30:25.991Z",
+  "decision_id": "D-02210"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02210",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02417",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02628",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00872",
+  "A-00957",
+  "A-01040"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01948",
+   "arm": "agent",
+   "decision_id": "D-02210",
+   "goal_id": "G12",
+   "goal_start": "2026-10-01T15:30:25.991Z",
+   "deadline": "2026-10-08T15:30:25.991Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": null
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-00084",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00084",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T16:30:54.764Z",
+  "deadline": "2026-10-04T16:30:54.764Z",
+  "decision_id": "D-02406"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02406",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02443",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02561",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00952",
+  "A-00967",
+  "A-01019"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00084",
+   "arm": "agent",
+   "decision_id": "D-02406",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T16:30:54.764Z",
+   "deadline": "2026-10-04T16:30:54.764Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "digi-mone-d3"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "viewer_id": "U-03481",
+ "arm": "agent",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-01627",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "dependency_degraded",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01629",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "dependency_degraded",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "signup_completed",
+   "at": "2026-10-01T13:13:55.542Z"
+  }
+ ],
+ "outcomes": []
+}

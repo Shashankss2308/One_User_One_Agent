@@ -1,0 +1,66 @@
+{
+ "viewer_id": "U-00908",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00908",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:42:19.702Z",
+  "deadline": "2026-10-04T04:42:19.702Z",
+  "decision_id": "D-00346"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00346",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01239",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01573",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02323",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00147",
+  "A-00449",
+  "A-00594",
+  "A-00920"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00908",
+   "arm": "agent",
+   "decision_id": "D-00346",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:42:19.702Z",
+   "deadline": "2026-10-04T04:42:19.702Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "tiya-bhamaro-d1"
+  }
+ ]
+}

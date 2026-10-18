@@ -1,0 +1,91 @@
+{
+ "viewer_id": "U-01092",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-01092",
+  "arm": "agent",
+  "goal_id": "G06",
+  "rule_version": 1,
+  "start": "2026-10-01T08:08:30.201Z",
+  "deadline": "2026-10-15T08:08:30.201Z",
+  "decision_id": "D-00999"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00999",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01137",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01138",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01862",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01863",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00340",
+  "A-00406",
+  "A-00407",
+  "A-00715",
+  "A-00716"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T13:19:37.004Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T13:19:51.947Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-10-01T13:20:12.548Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-10-01T13:21:02.228Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-01092",
+   "arm": "agent",
+   "decision_id": "D-00999",
+   "goal_id": "G06",
+   "goal_start": "2026-10-01T08:08:30.201Z",
+   "deadline": "2026-10-15T08:08:30.201Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": null
+  }
+ ]
+}

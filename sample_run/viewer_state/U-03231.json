@@ -1,0 +1,50 @@
+{
+ "viewer_id": "U-03231",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03231",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T09:23:16.463Z",
+  "deadline": "2026-10-04T09:23:16.463Z",
+  "decision_id": "D-01162"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01162",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01177",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00417",
+  "A-00423"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03231",
+   "arm": "agent",
+   "decision_id": "D-01162",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T09:23:16.463Z",
+   "deadline": "2026-10-04T09:23:16.463Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-020363",
+   "success_observed_at": "2026-10-01T09:29:06.570Z",
+   "target_content_slug": "molo-d2"
+  }
+ ]
+}

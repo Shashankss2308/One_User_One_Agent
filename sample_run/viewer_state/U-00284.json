@@ -1,0 +1,89 @@
+{
+ "viewer_id": "U-00284",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00284",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T03:12:27.715Z",
+  "deadline": "2026-10-04T03:12:27.715Z",
+  "decision_id": "D-00220"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00220",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "stale_trigger",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01036",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01085",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01613",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01614",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02239",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02447",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00360",
+  "A-00382",
+  "A-00612",
+  "A-00613",
+  "A-00886",
+  "A-00970"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00284",
+   "arm": "agent",
+   "decision_id": "D-00220",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T03:12:27.715Z",
+   "deadline": "2026-10-04T03:12:27.715Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "bagi-baya-d4"
+  }
+ ]
+}

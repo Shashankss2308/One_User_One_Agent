@@ -1,0 +1,66 @@
+{
+ "viewer_id": "U-03298",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03298",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-09-30T23:38:20.154Z",
+  "deadline": "2026-10-03T23:38:20.154Z",
+  "decision_id": "D-00064"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00064",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00065",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00900",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00901",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00025",
+  "A-00026",
+  "A-00298",
+  "A-00299"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03298",
+   "arm": "agent",
+   "decision_id": "D-00064",
+   "goal_id": "G07",
+   "goal_start": "2026-09-30T23:38:20.154Z",
+   "deadline": "2026-10-03T23:38:20.154Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "bala-naja-d2"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "viewer_id": "U-02551",
+ "arm": "agent",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-01193",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_goal",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": []
+}

@@ -1,0 +1,69 @@
+{
+ "viewer_id": "U-02259",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-02259",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T06:45:03.947Z",
+  "deadline": "2026-10-04T06:45:03.947Z",
+  "decision_id": "D-00814"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00814",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-09-30T21:29:43.236Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-09-30T21:29:55.830Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-09-30T21:30:56.207Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:31:41.321Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:32:25.872Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:33:10.096Z"
+  },
+  {
+   "event": "episode_completed",
+   "at": "2026-09-30T21:33:42.864Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-02259",
+   "arm": "holdout",
+   "decision_id": "D-00814",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T06:45:03.947Z",
+   "deadline": "2026-10-04T06:45:03.947Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "sajani-neka-d6"
+  }
+ ]
+}

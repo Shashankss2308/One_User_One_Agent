@@ -1,0 +1,72 @@
+{
+ "viewer_id": "U-01356",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-01356",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:20:57.158Z",
+  "deadline": "2026-10-04T04:20:57.158Z",
+  "decision_id": "D-00307"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00307",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00859",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01011",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01755",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "stale_trigger",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01756",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "stale_trigger",
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00131",
+  "A-00280",
+  "A-00345"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01356",
+   "arm": "agent",
+   "decision_id": "D-00307",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:20:57.158Z",
+   "deadline": "2026-10-04T04:20:57.158Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "yatite-roloda-d3"
+  }
+ ]
+}

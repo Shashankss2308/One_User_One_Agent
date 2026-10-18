@@ -1,0 +1,59 @@
+{
+ "viewer_id": "U-04961",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04961",
+  "arm": "agent",
+  "goal_id": "G12",
+  "rule_version": 1,
+  "start": "2026-10-01T02:50:30.068Z",
+  "deadline": "2026-10-08T02:50:30.068Z",
+  "decision_id": "D-00184"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00184",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01172",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00082",
+  "A-00422"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T09:54:09.974Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T09:54:36.124Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-04961",
+   "arm": "agent",
+   "decision_id": "D-00184",
+   "goal_id": "G12",
+   "goal_start": "2026-10-01T02:50:30.068Z",
+   "deadline": "2026-10-08T02:50:30.068Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-031336",
+   "success_observed_at": "2026-10-03T07:16:16.000Z",
+   "target_content_slug": null
+  }
+ ]
+}

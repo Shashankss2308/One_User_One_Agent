@@ -1,0 +1,83 @@
+{
+ "viewer_id": "U-01717",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-01717",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T01:39:12.366Z",
+  "deadline": "2026-10-04T01:39:12.366Z",
+  "decision_id": "D-00114"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00114",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02171",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00046",
+  "A-00854"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-09-30T20:57:30.565Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-09-30T20:57:55.643Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-09-30T20:58:46.673Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-09-30T21:00:08.812Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:01:10.709Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:02:10.330Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T21:03:08.765Z"
+  },
+  {
+   "event": "episode_completed",
+   "at": "2026-09-30T21:03:50.759Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-01717",
+   "arm": "agent",
+   "decision_id": "D-00114",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T01:39:12.366Z",
+   "deadline": "2026-10-04T01:39:12.366Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "pate-kari-d3"
+  }
+ ]
+}

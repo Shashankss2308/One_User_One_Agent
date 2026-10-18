@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-00374",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00374",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T05:58:29.304Z",
+  "deadline": "2026-10-04T05:58:29.304Z",
+  "decision_id": "D-00724"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00724",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02492",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02688",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00215",
+  "A-00990",
+  "A-01062"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00374",
+   "arm": "agent",
+   "decision_id": "D-00724",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T05:58:29.304Z",
+   "deadline": "2026-10-04T05:58:29.304Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "pate-kari-d3"
+  }
+ ]
+}

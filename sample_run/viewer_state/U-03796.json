@@ -1,0 +1,50 @@
+{
+ "viewer_id": "U-03796",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03796",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:47:55.086Z",
+  "deadline": "2026-10-04T04:47:55.086Z",
+  "decision_id": "D-00567"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00567",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01367",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00149",
+  "A-00509"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03796",
+   "arm": "agent",
+   "decision_id": "D-00567",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:47:55.086Z",
+   "deadline": "2026-10-04T04:47:55.086Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "lola-rodira-d2"
+  }
+ ]
+}

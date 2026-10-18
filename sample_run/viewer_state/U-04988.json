@@ -1,0 +1,66 @@
+{
+ "viewer_id": "U-04988",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04988",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T02:56:20.261Z",
+  "deadline": "2026-10-04T02:56:20.261Z",
+  "decision_id": "D-00192"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00192",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00193",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02466",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02467",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00085",
+  "A-00086",
+  "A-00979",
+  "A-00980"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04988",
+   "arm": "agent",
+   "decision_id": "D-00192",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T02:56:20.261Z",
+   "deadline": "2026-10-04T02:56:20.261Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "bhaja-moguba-d2"
+  }
+ ]
+}

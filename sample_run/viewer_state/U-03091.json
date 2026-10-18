@@ -1,0 +1,66 @@
+{
+ "viewer_id": "U-03091",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03091",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T08:39:09.827Z",
+  "deadline": "2026-10-04T08:39:09.827Z",
+  "decision_id": "D-01067"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01067",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01435",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01587",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02464",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00373",
+  "A-00536",
+  "A-00600",
+  "A-00978"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03091",
+   "arm": "agent",
+   "decision_id": "D-01067",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T08:39:09.827Z",
+   "deadline": "2026-10-04T08:39:09.827Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "molo-d2"
+  }
+ ]
+}

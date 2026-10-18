@@ -1,0 +1,110 @@
+{
+ "viewer_id": "U-03514",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03514",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T06:13:15.342Z",
+  "deadline": "2026-10-04T06:13:15.342Z",
+  "decision_id": "D-00748"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00748",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01325",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01547",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01588",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02229",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02526",
+   "action": "NO_ACTION",
+   "goal": "G08",
+   "reason": "invalid_dialect",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02608",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00225",
+  "A-00492",
+  "A-00583",
+  "A-00601",
+  "A-00880",
+  "A-01034"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-09-30T23:53:14.344Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-09-30T23:53:24.540Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-09-30T23:54:55.969Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T23:55:41.408Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T23:56:26.597Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-03514",
+   "arm": "agent",
+   "decision_id": "D-00748",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T06:13:15.342Z",
+   "deadline": "2026-10-04T06:13:15.342Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "chugu-d2"
+  }
+ ]
+}

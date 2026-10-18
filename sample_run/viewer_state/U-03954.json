@@ -1,0 +1,76 @@
+{
+ "viewer_id": "U-03954",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-03954",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-09-30T23:31:46.382Z",
+  "deadline": "2026-10-03T23:31:46.382Z",
+  "decision_id": "D-00063"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00063",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01415",
+   "action": "NO_ACTION",
+   "goal": "G08",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T04:28:01.465Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T04:28:31.724Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-10-01T04:29:46.080Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T04:30:15.883Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T04:30:44.769Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T04:31:14.278Z"
+  },
+  {
+   "event": "episode_completed",
+   "at": "2026-10-01T04:31:34.115Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-03954",
+   "arm": "holdout",
+   "decision_id": "D-00063",
+   "goal_id": "G07",
+   "goal_start": "2026-09-30T23:31:46.382Z",
+   "deadline": "2026-10-03T23:31:46.382Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "9aee2472-ef0c-4deb-b9e2-9492bf7c26fb",
+   "success_observed_at": "2026-10-01T04:29:46.080Z",
+   "target_content_slug": "kova-sako-d5"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "viewer_id": "U-04539",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-04539",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:47:24.005Z",
+  "deadline": "2026-10-04T04:47:24.005Z",
+  "decision_id": "D-00525"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00525",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T12:29:47.376Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T12:29:54.022Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-10-01T12:31:48.197Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T12:42:48.301Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-04539",
+   "arm": "holdout",
+   "decision_id": "D-00525",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:47:24.005Z",
+   "deadline": "2026-10-04T04:47:24.005Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "fe6ad3b2-4df7-4081-b3e3-b4d6940463b1",
+   "success_observed_at": "2026-10-01T12:31:48.197Z",
+   "target_content_slug": "molo-d2"
+  }
+ ]
+}

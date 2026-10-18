@@ -1,0 +1,40 @@
+{
+ "viewer_id": "U-03531",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-03531",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:04:19.324Z",
+  "deadline": "2026-10-04T04:04:19.324Z",
+  "decision_id": "D-00287"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00287",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03531",
+   "arm": "holdout",
+   "decision_id": "D-00287",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:04:19.324Z",
+   "deadline": "2026-10-04T04:04:19.324Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "gubava-gihaya-d5"
+  }
+ ]
+}

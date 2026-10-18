@@ -1,0 +1,66 @@
+{
+ "viewer_id": "U-04376",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04376",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:45:04.980Z",
+  "deadline": "2026-10-04T04:45:04.980Z",
+  "decision_id": "D-00359"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00359",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00614",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01360",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02186",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00148",
+  "A-00171",
+  "A-00507",
+  "A-00858"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04376",
+   "arm": "agent",
+   "decision_id": "D-00359",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:45:04.980Z",
+   "deadline": "2026-10-04T04:45:04.980Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "bhatesa-bayaya-d2"
+  }
+ ]
+}

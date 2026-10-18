@@ -1,0 +1,68 @@
+{
+ "viewer_id": "U-02383",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-02383",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T05:26:20.864Z",
+  "deadline": "2026-10-04T05:26:20.864Z",
+  "decision_id": "D-00651"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00651",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01561",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01563",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01921",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02180",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02383",
+   "arm": "holdout",
+   "decision_id": "D-00651",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T05:26:20.864Z",
+   "deadline": "2026-10-04T05:26:20.864Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "molo-d2"
+  }
+ ]
+}

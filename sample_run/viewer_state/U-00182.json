@@ -1,0 +1,38 @@
+{
+ "viewer_id": "U-00182",
+ "arm": "holdout",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-02091",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-09-30T21:56:25.031Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-09-30T21:56:44.713Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-09-30T21:57:34.326Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-09-30T21:57:47.626Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-09-30T21:57:57.034Z"
+  }
+ ],
+ "outcomes": []
+}

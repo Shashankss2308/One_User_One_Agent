@@ -1,0 +1,29 @@
+{
+ "viewer_id": "U-01704",
+ "arm": "holdout",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-01622",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "dependency_degraded",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01623",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "dependency_degraded",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "signup_completed",
+   "at": "2026-10-01T13:12:42.453Z"
+  }
+ ],
+ "outcomes": []
+}

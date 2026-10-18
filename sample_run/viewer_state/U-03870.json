@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-03870",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-03870",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T07:27:41.218Z",
+  "deadline": "2026-10-04T07:27:41.218Z",
+  "decision_id": "D-00907"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00907",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01204",
+   "action": "NO_ACTION",
+   "goal": "G08",
+   "reason": "invalid_dialect",
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00302"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T08:17:39.873Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T08:18:08.105Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-03870",
+   "arm": "agent",
+   "decision_id": "D-00907",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T07:27:41.218Z",
+   "deadline": "2026-10-04T07:27:41.218Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "gubava-gihaya-d5"
+  }
+ ]
+}

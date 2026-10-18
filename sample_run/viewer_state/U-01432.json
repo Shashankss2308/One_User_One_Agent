@@ -1,0 +1,42 @@
+{
+ "viewer_id": "U-01432",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-01432",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T12:40:33.362Z",
+  "deadline": "2026-10-04T12:40:33.362Z",
+  "decision_id": "D-01554"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01554",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00587"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01432",
+   "arm": "agent",
+   "decision_id": "D-01554",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T12:40:33.362Z",
+   "deadline": "2026-10-04T12:40:33.362Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "rasuya-moni-d6"
+  }
+ ]
+}

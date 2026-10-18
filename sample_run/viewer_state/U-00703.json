@@ -1,0 +1,45 @@
+{
+ "viewer_id": "U-00703",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-00703",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T05:02:33.087Z",
+  "deadline": "2026-10-04T05:02:33.087Z",
+  "decision_id": "D-00593"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00593",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "purchase_completed",
+   "at": "2026-10-01T05:04:30.420Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-00703",
+   "arm": "holdout",
+   "decision_id": "D-00593",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T05:02:33.087Z",
+   "deadline": "2026-10-04T05:02:33.087Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "jamo-hasa-d5"
+  }
+ ]
+}

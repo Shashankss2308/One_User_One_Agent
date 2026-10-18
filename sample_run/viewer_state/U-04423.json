@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-04423",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-04423",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T04:51:49.374Z",
+  "deadline": "2026-10-04T04:51:49.374Z",
+  "decision_id": "D-00579"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00579",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01050",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04423",
+   "arm": "holdout",
+   "decision_id": "D-00579",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T04:51:49.374Z",
+   "deadline": "2026-10-04T04:51:49.374Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-027750",
+   "success_observed_at": "2026-10-01T04:52:23.374Z",
+   "target_content_slug": "bhaja-moguba-d2"
+  }
+ ]
+}

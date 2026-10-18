@@ -1,0 +1,21 @@
+{
+ "decisions": 2689,
+ "p50_ms": 4.0,
+ "p95_ms": 12.7,
+ "p99_ms": 22.2,
+ "max_ms": 63.7,
+ "over_60s": 0,
+ "over_5min": 0,
+ "stats": {
+  "live_events_ingested": 600,
+  "load_shed_decisions": 186,
+  "live_event_duplicates": 7,
+  "duplicate_trigger_ignored": 90,
+  "model_skipped_load_shed": 1,
+  "viewers_repaired_after_withdrawal": 10,
+  "model_claims_rejected": 2,
+  "model_failure_fallbacks": 11,
+  "data_store_degradation_windows": 1,
+  "data_store_degraded_no_actions": 16
+ }
+}

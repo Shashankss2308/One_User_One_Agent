@@ -1,0 +1,73 @@
+{
+ "viewer_id": "U-00742",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-00742",
+  "arm": "holdout",
+  "goal_id": "G06",
+  "rule_version": 1,
+  "start": "2026-10-01T16:52:45.855Z",
+  "deadline": "2026-10-15T16:52:45.855Z",
+  "decision_id": "D-02481"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02481",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T18:37:35.205Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-09-30T19:07:36.437Z"
+  },
+  {
+   "event": "app_open",
+   "at": "2026-10-01T14:49:09.854Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T14:49:14.014Z"
+  },
+  {
+   "event": "title_viewed",
+   "at": "2026-10-01T14:49:40.634Z"
+  },
+  {
+   "event": "play_started",
+   "at": "2026-10-01T14:51:32.304Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T14:52:02.190Z"
+  },
+  {
+   "event": "play_progress",
+   "at": "2026-10-01T14:52:31.635Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-00742",
+   "arm": "holdout",
+   "decision_id": "D-02481",
+   "goal_id": "G06",
+   "goal_start": "2026-10-01T16:52:45.855Z",
+   "deadline": "2026-10-15T16:52:45.855Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": null
+  }
+ ]
+}

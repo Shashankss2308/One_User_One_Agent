@@ -1,0 +1,42 @@
+{
+ "viewer_id": "U-00888",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00888",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T15:32:10.433Z",
+  "deadline": "2026-10-04T15:32:10.433Z",
+  "decision_id": "D-02215"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02215",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00874"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00888",
+   "arm": "agent",
+   "decision_id": "D-02215",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T15:32:10.433Z",
+   "deadline": "2026-10-04T15:32:10.433Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "yatite-roloda-d3"
+  }
+ ]
+}

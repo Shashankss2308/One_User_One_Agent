@@ -1,0 +1,22 @@
+{
+ "viewer_id": "U-02654",
+ "arm": "agent",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-01077",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "invalid_dialect",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "purchase_completed",
+   "at": "2026-10-01T08:45:13.367Z"
+  }
+ ],
+ "outcomes": []
+}

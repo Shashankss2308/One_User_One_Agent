@@ -1,0 +1,51 @@
+{
+ "viewer_id": "U-02242",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-02242",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T12:22:58.562Z",
+  "deadline": "2026-10-04T12:22:58.562Z",
+  "decision_id": "D-01526"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01526",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00575"
+ ],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T05:14:31.752Z"
+  },
+  {
+   "event": "search",
+   "at": "2026-10-01T05:14:48.448Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-02242",
+   "arm": "agent",
+   "decision_id": "D-01526",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T12:22:58.562Z",
+   "deadline": "2026-10-04T12:22:58.562Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "molo-d2"
+  }
+ ]
+}

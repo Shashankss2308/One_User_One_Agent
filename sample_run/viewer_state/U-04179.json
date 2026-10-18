@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-04179",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04179",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T03:01:29.559Z",
+  "deadline": "2026-10-04T03:01:29.559Z",
+  "decision_id": "D-00204"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00204",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02419",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02656",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00091",
+  "A-00959",
+  "A-01053"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04179",
+   "arm": "agent",
+   "decision_id": "D-00204",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T03:01:29.559Z",
+   "deadline": "2026-10-04T03:01:29.559Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "jakasa-dapi-d3"
+  }
+ ]
+}

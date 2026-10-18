@@ -1,0 +1,17 @@
+{
+ "viewer_id": "U-04838",
+ "arm": "holdout",
+ "assigned_goal": null,
+ "decisions": [
+  {
+   "decision_id": "D-02143",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": []
+}

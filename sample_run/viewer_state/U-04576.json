@@ -1,0 +1,42 @@
+{
+ "viewer_id": "U-04576",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-04576",
+  "arm": "agent",
+  "goal_id": "G05",
+  "rule_version": 1,
+  "start": "2026-10-01T18:16:45.717Z",
+  "deadline": "2026-10-08T18:16:45.717Z",
+  "decision_id": "D-02672"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02672",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-01058"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04576",
+   "arm": "agent",
+   "decision_id": "D-02672",
+   "goal_id": "G05",
+   "goal_start": "2026-10-01T18:16:45.717Z",
+   "deadline": "2026-10-08T18:16:45.717Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-028613",
+   "success_observed_at": "2026-10-07T14:38:00.000Z",
+   "target_content_slug": null
+  }
+ ]
+}

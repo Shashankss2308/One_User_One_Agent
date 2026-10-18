@@ -1,0 +1,61 @@
+{
+ "viewer_id": "U-00192",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-00192",
+  "arm": "holdout",
+  "goal_id": "G06",
+  "rule_version": 1,
+  "start": "2026-10-01T10:39:06.925Z",
+  "deadline": "2026-10-15T10:39:06.925Z",
+  "decision_id": "D-01299"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01299",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01816",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01988",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-02369",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00192",
+   "arm": "holdout",
+   "decision_id": "D-01299",
+   "goal_id": "G06",
+   "goal_start": "2026-10-01T10:39:06.925Z",
+   "deadline": "2026-10-15T10:39:06.925Z",
+   "rule_version": 1,
+   "status": "SUCCEEDED",
+   "reason": "qualifying success signal observed within the goal window",
+   "success_event_id": "oua-001277",
+   "success_observed_at": "2026-10-01T10:49:06.925Z",
+   "target_content_slug": null
+  }
+ ]
+}

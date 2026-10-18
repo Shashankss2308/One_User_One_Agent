@@ -1,0 +1,49 @@
+{
+ "viewer_id": "U-03619",
+ "arm": "holdout",
+ "assigned_goal": {
+  "viewer_id": "U-03619",
+  "arm": "holdout",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T13:51:35.177Z",
+  "deadline": "2026-10-04T13:51:35.177Z",
+  "decision_id": "D-01727"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01727",
+   "action": "NO_ACTION",
+   "goal": "G07",
+   "reason": "holdout_arm",
+   "checks_failed": []
+  }
+ ],
+ "actions": [],
+ "live_events_seen": [
+  {
+   "event": "app_open",
+   "at": "2026-10-01T01:27:54.131Z"
+  },
+  {
+   "event": "home_viewed",
+   "at": "2026-10-01T01:28:12.297Z"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-03619",
+   "arm": "holdout",
+   "decision_id": "D-01727",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T13:51:35.177Z",
+   "deadline": "2026-10-04T13:51:35.177Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "tidha-dakachu-d1"
+  }
+ ]
+}

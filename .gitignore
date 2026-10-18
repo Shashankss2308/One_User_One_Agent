@@ -1,0 +1,13 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.pytest-tmp/
+
+# Local data and generated SQLite stores (recreated by run_replay.ps1)
+state.db
+sample_run/run.db
+
+# Simulator event stream is reproducible and contains per-viewer records
+sample_run/sim/

@@ -1,0 +1,58 @@
+{
+ "viewer_id": "U-00917",
+ "arm": "agent",
+ "assigned_goal": {
+  "viewer_id": "U-00917",
+  "arm": "agent",
+  "goal_id": "G07",
+  "rule_version": 1,
+  "start": "2026-10-01T05:03:08.399Z",
+  "deadline": "2026-10-04T05:03:08.399Z",
+  "decision_id": "D-00595"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00595",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-00836",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  },
+  {
+   "decision_id": "D-01922",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "checks_failed": []
+  }
+ ],
+ "actions": [
+  "A-00162",
+  "A-00266",
+  "A-00744"
+ ],
+ "live_events_seen": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00917",
+   "arm": "agent",
+   "decision_id": "D-00595",
+   "goal_id": "G07",
+   "goal_start": "2026-10-01T05:03:08.399Z",
+   "deadline": "2026-10-04T05:03:08.399Z",
+   "rule_version": 1,
+   "status": "FAILED",
+   "reason": "full goal window observed without a qualifying success signal",
+   "success_event_id": null,
+   "success_observed_at": null,
+   "target_content_slug": "nini-namoko-d1"
+  }
+ ]
+}
