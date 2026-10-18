@@ -4,7 +4,7 @@ This project implements a replayable OTT lifecycle agent. Rules select one measu
 
 ## Current workspace status
 
-The workspace includes source code, a 140,730-event history database, and a saved replay under `sample_run/`. The synthetic input pack is available separately at the provided Downloads path and is passed to the replay script. The original assignment PDF is outside this repository.
+The source code and saved replay artifacts are included under `sample_run/`. Running the replay builds a local 140,730-event history database; generated SQLite databases are excluded from version control. Keep the supplied synthetic input pack available locally and pass its path to the replay script. The original assignment PDF is outside this repository.
 
 ## Run
 
